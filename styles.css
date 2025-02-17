@@ -1,0 +1,201 @@
+/* Custom Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #8B0000, #000000);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.bg-dark-red {
+  background: linear-gradient(135deg, #8B0000, #000000);
+}
+
+/* Header */
+.header {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.bold-text {
+  font-weight: 700;
+  color: #FFD700;
+}
+
+/* Person Image */
+.person-image-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.person-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+/* Service Cards */
+.service-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.service-card h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Shapes and Elements */
+.shapes-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.shape {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.shape-1 {
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 10%;
+  animation: float 4s infinite;
+}
+
+.shape-2 {
+  width: 150px;
+  height: 150px;
+  top: 50px;
+  right: 10%;
+  animation: float 6s infinite;
+}
+
+.shape-3 {
+  width: 200px;
+  height: 200px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: float 5s infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+/* Footer */
+.footer {
+  background: #000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Animated Shapes */
+.shapes-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.shape {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  animation: float 5s infinite;
+}
+
+.shape-1 {
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 10%;
+}
+
+.shape-2 {
+  width: 150px;
+  height: 150px;
+  top: 50px;
+  right: 10%;
+}
+
+.shape-3 {
+  width: 200px;
+  height: 200px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+/* Colorful Services List */
+.service-item {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.service-item-1 { background: #FF6B6B; }
+.service-item-2 { background: #4ECDC4; }
+.service-item-3 { background: #FFD166; }
+.service-item-4 { background: #06D6A0; }
+.service-item-5 { background: #118AB2; }
+.service-item-6 { background: #073B4C; }
+
+/* Post Cards */
+.post-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.post-image-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.post-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.post-content {
+  padding: 20px;
+  text-align: center;
+}
